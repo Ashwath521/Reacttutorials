@@ -228,3 +228,66 @@ We have if/else, element variables, ternary conditional operator and short circu
 // More simple way easy to use & we can use inside of the return statement
 //  Note:- Most of the cases we only use ternary conditional operators because it's easiest way
 // 4)short circuit operator
+
+
+// React JS Tutorial - 16
+// TOPIC - Conditional Rendering
+// There are 4 ways Render our component
+/* When you are building React applications, you may often need to show or hide some HTML based on a certain condition. 
+Luckily, conditional rendering in React works the same way conditions work in JavaScript. 
+We have 4 different approaches and we will take a detailed look at all of them.
+We have if/else, element variables, ternary conditional operator and short circuit operator (&&).*/
+// Conditional Rendering
+// 1)if/Else
+// Note inside of the return statement if else doesn't work because JSX only supports synthantical syntax
+// 2) Element Variables
+// we use javascript variables storing the rendered elements this also help for if else rendering
+// that variables display in inside of the return statement Ex:- <h1>{message}</h1>
+// 3) ternary conditional operator
+// More simple way easy to use & we can use inside of the return statement
+//  Note:- Most of the cases we only use ternary conditional operators because it's easiest way
+// 4)short circuit operator
+
+// React JS Tutorial - 17
+// TOPIC - List Rendering
+// List Rendering Always inside of the arrow function parameter we should use parameter name relevant to our code
+// Alway List Rendering we use map method in react
+// Always Refactor JSX to separate components
+// segregate HTML vs Javascript code separate while doing List Rendering
+
+// React JS Tutorial - 18 Lists and Keys
+// TOPIC - List and keys
+// key is a prop
+// Always Key should be a unique
+// it will not accept duplication it will be through as a error
+/*A “key” is a special string attribute you need to include when creating lists of elements.
+// Keys give the elements a stable identity.
+// Keys help React identify which items have changed, are added, or are removed.
+// This results in a much more efficient update of the user interface.
+*/
+// key is special attributes which include in the list rendering
+// key is not accessible to child components it will be through error
+
+// React js Tutorial - 19 Index as Key Anti-pattern
+// TOPIC - Index as Key Anti-pattern
+// we can use array Index as Key Anti-pattern but Based on some Conditional
+/*
+When to use index as key
+Condition1:- The items in your list do not have a unique id.
+Condition2:-The list is a static list and will not change .
+Condition3:- The list will never be reordered or filtered
+*/
+// when to use unique id React provide package for that we can use that
+
+// React JS Tutorial - Styling and CSS Basics
+// TOPIC - Styling and CSS Basics
+// 1. CSS stylesheets
+// we can pass the className  based on props or state
+// when add the more className we can use the Template literals
+// 2. inline styling
+// 3. CSS Modules
+// advantage of classModule are locally scoped
+// in normally stylesheet className we can access inside of our child component
+// but stylesheet.module.Css className we can't access outside of child components
+// 4. CSS in JS Libaries
+
