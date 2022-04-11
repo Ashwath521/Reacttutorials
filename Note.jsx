@@ -229,25 +229,6 @@ We have if/else, element variables, ternary conditional operator and short circu
 //  Note:- Most of the cases we only use ternary conditional operators because it's easiest way
 // 4)short circuit operator
 
-
-// React JS Tutorial - 16
-// TOPIC - Conditional Rendering
-// There are 4 ways Render our component
-/* When you are building React applications, you may often need to show or hide some HTML based on a certain condition. 
-Luckily, conditional rendering in React works the same way conditions work in JavaScript. 
-We have 4 different approaches and we will take a detailed look at all of them.
-We have if/else, element variables, ternary conditional operator and short circuit operator (&&).*/
-// Conditional Rendering
-// 1)if/Else
-// Note inside of the return statement if else doesn't work because JSX only supports synthantical syntax
-// 2) Element Variables
-// we use javascript variables storing the rendered elements this also help for if else rendering
-// that variables display in inside of the return statement Ex:- <h1>{message}</h1>
-// 3) ternary conditional operator
-// More simple way easy to use & we can use inside of the return statement
-//  Note:- Most of the cases we only use ternary conditional operators because it's easiest way
-// 4)short circuit operator
-
 // React JS Tutorial - 17
 // TOPIC - List Rendering
 // List Rendering Always inside of the arrow function parameter we should use parameter name relevant to our code
